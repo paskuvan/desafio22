@@ -10,8 +10,33 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+ *= require_tree 
  *= require_self
  */
+body {
+	font-family: 'Muli', sans-serif;
+}
 
- 
+h1 {
+	color: #fff;
+}
+
+tr {
+	color: #fff;
+	font-size: 15px;
+}
+
+td {
+	color: #fff;
+	font-size: 15px;
+}
+
+strong {
+	color: #fff;
+	font-size: 15px;
+}
+
+a {
+	color: #fff;
+	font-size: 15px;
+}
