@@ -5,8 +5,9 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Age</th>
+      <th>Name&nbsp;</th>
+      <th>Age&nbsp;</th>
+      <th>Email</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,9 +17,9 @@
       <tr>
         <td><%= student.name %></td>
         <td><%= student.age %></td>
-        <td><%= link_to 'Show', student %></td>
-        <td><%= link_to 'Edit', edit_student_path(student) %></td>
-        <td><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', student, type: 'button', class: 'btn btn-success' %></td>
+        <td><%= link_to 'Edit', edit_student_path(student), class: 'btn btn-warning' %></td>
+        <td><%= link_to 'Destroy', student, class: 'btn btn-danger', method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
