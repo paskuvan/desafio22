@@ -15,7 +15,7 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only">inicio</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -24,8 +24,8 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Landing</a></li>
+            <li><%= link_to "index", root_path %></li>
+            <li><%= link_to "landing", pages_landing_path  %></li>
           </ul>
         </div>
     </nav>
